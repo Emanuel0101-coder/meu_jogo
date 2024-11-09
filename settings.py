@@ -14,14 +14,14 @@ class Settings:
 
         #configuracoes da bullet 
         self.bullet_speed = 5.0           #ajuste para 10, para ser divino
-        self.bullet_width = 3            #Afins de teste, mude para 3000, assim sera poderoso
+        self.bullet_width = 3000            #Afins de teste, mude para 3000, assim sera poderoso
         self.bullet_height = 15 
         self.bullet_color = (255, 255, 0)
         self.bullets_allowed = 10
 
         #configuracao do alien
         self.alien_speed = 1.0
-        self.fleet_drop_speed = 100        #fleet_direction de 1 representa a direita; -1 representa a esquerda
+        self.fleet_drop_speed = 10        #fleet_direction de 1 representa a direita; -1 representa a esquerda
         self.fleet_direction = 1
 
         
